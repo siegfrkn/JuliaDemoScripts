@@ -5,6 +5,17 @@
 # Written by Katrina Siegfried
 # 2018-09-15
 # CSCI3412_Algorithms
+
+# This file reads in a txt file contianing an array that has the following format
+# Line 1	Title of txt file
+# Line 2	<number of elements>
+# Line 3	n1
+# Line 4	n2
+# Line 5	n3
+# 		...
+# Line n	n
+
+
 using DelimitedFiles
 
 
