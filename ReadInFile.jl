@@ -48,5 +48,6 @@ listToSort  = read_in_file()
 for i = 1:length(listToSort)
 	# println(listToSort[i])
 end
+
 # WRITE RESULTS TO NEW TXT FILE
 writedlm("sortResults.txt", listToSort)
